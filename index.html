@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BNV_ɓãshwïll | Free Fire Diamonds & Evo</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:Arial,sans-serif;background:#0a0a0f;color:#fff;line-height:1.6}
+        header{background:#1a1a2e;padding:20px;text-align:center;border-bottom:3px solid #ff6b35}
+        .logo{color:#ff6b35;font-size:28px;font-weight:bold;text-transform:uppercase}
+        .nav-tabs{display:flex;justify-content:center;background:#1a1a2e;padding:10px;gap:10px;flex-wrap:wrap}
+        .nav-tab{padding:10px 20px;background:#333;border:none;color:#fff;border-radius:20px;cursor:pointer;font-weight:bold}
+        .nav-tab.active{background:#ff6b35}
+        .hero{background:linear-gradient(135deg,#1a1a2e 0%,#16213e 100%);padding:40px 20px;text-align:center}
+        .hero h1{color:#ff6b35;font-size:26px;margin-bottom:15px}
+        .hero p{color:#ccc;font-size:16px;margin-bottom:20px}
+        .btn{display:inline-block;background:#ff6b35;color:#fff;padding:15px 40px;text-decoration:none;border-radius:30px;font-weight:bold}
+        .section{display:none;padding:20px;max-width:800px;margin:0 auto}
+        .section.active{display:block}
+        .notice-box{background:#1a1a2e;border:2px solid #f7c600;border-radius:10px;padding:20px;margin:20px 0;text-align:center}
+        .notice-box h3{color:#f7c600;margin-bottom:10px}
+        .whatsapp-btn{display:inline-block;background:#25d366;color:#fff;padding:12px 30px;border-radius:25px;text-decoration:none;font-weight:bold;margin-top:10px}
+        .packages{display:grid;grid-template-columns:1fr;gap:15px}
+        .package{background:#1a1a2e;border:2px solid #333;border-radius:10px;padding:20px;text-align:center;cursor:pointer;transition:all 0.3s}
+        .package:hover{border-color:#ff6b35;transform:translateY(-3px)}
+        .package.selected{border-color:#f7c600;background:#2a2a3e}
+        .package-badge{background:#ff6b35;color:#fff;padding:5px 15px;border-radius:20px;font-size:12px;display:inline-block;margin-bottom:10px}
+        .package-badge.popular{background:#f7c600;color:#000}
+        .package-badge.evo{background:#9b59b6}
+        .amount{color:#f7c600;font-size:20px;font-weight:bold}
+        .price{font-size:28px;color:#ff6b35;font-weight:bold;margin:10px 0}
+        .old-price{text-decoration:line-through;color:#666;font-size:16px}
+        .savings{color:#4ade80;font-size:14px;margin-bottom:10px}
+        .features-list{text-align:left;margin:15px 0;padding:0 20px}
+        .features-list li{color:#aaa;font-size:14px;margin:5px 0;list-style:none}
+        .features-list li:before{content:"✓ ";color:#4ade80}
+        .order-form{background:#1a1a2e;padding:20px;margin:20px 0;border-radius:10px}
+        .input-group{margin-bottom:15px}
+        label{display:block;color:#ff6b35;margin-bottom:5px;font-weight:bold}
+        input[type="text"]{width:100%;padding:12px;background:#0a0a0f;border:2px solid #333;color:#fff;border-radius:5px}
+        .payment-info{background:#0f0f1a;padding:15px;border-radius:8px;margin:15px 0;text-align:center}
+        .bank-details{background:#1a1a2e;padding:15px;border-radius:5px;margin:10px 0;font-family:monospace;font-size:14px}
+        .submit-btn{width:100%;padding:15px;background:#25d366;color:#fff;border:none;border-radius:8px;font-size:18px;font-weight:bold;cursor:pointer}
+        .evo-section{background:linear-gradient(135deg,#1a1a2e 0%,#2d1b4e 100%);border:2px solid #9b59b6}
+        .evo-title{color:#9b59b6;font-size:24px;text-align:center;margin-bottom:10px}
+        footer{background:#1a1a2e;padding:20px;text-align:center;border-top:2px solid #ff6b35;margin-top:20px}
+        .footer-logo{color:#ff6b35;font-size:20px;font-weight:bold}
+    </style>
+</head>
+<body>
+
+<header><div class="logo">BNV_ɓãshwïll</div></header>
+
+<div class="nav-tabs">
+<button class="nav-tab active" onclick="showSection('diamonds',this)">💎 Diamonds</button>
+<button class="nav-tab" onclick="showSection('weekly',this)">📅 Weekly</button>
+<button class="nav-tab" onclick="showSection('monthly',this)">📆 Monthly</button>
+<button class="nav-tab" onclick="showSection('evo',this)">🔥 Evo</button>
+</div>
+
+<div id="diamonds" class="section active">
+<div class="hero"><h1>Free Fire Diamond Top Up</h1><p>Instant diamonds at best prices.</p></div>
+<div class="notice-box"><h3>📱 How to Order</h3><p>1. Select package<br>2. Fill your Player ID<br>3. Pay to OPay<br>4. Get diamonds in 2 mins!</p><a href="https://wa.me/2349039843883" class="whatsapp-btn">💬 WhatsApp Me</a></div>
+<h2 style="color:#f7c600;text-align:center;margin:20px 0">Select Package</h2>
+<div class="packages">
+<div class="package" onclick="selectPackage('diamonds',100,3000)"><div class="amount">💎 100 Diamonds</div><div style="color:#4ade80;font-size:14px">+10 Bonus</div><div class="price">₦3,000</div></div>
+<div class="package" onclick="selectPackage('diamonds',310,7500)"><div class="amount">💎 310 Diamonds</div><div style="color:#4ade80;font-size:14px">+31 Bonus</div><div class="price">₦7,500</div></div>
+<div class="package" onclick="selectPackage('diamonds',520,12000)"><div class="amount">💎 520 Diamonds</div><div style="color:#4ade80;font-size:14px">+52 Bonus</div><div class="price">₦12,000</div></div>
+<div class="package" onclick="selectPackage('diamonds',1060,22000)"><div class="amount">💎 1,060 Diamonds</div><div style="color:#4ade80;font-size:14px">+106 Bonus</div><div class="price">₦22,000</div></div>
+</div>
+<div class="order-form"><h3 style="color:#f7c600;text-align:center;margin-bottom:20px">Your Order</h3>
+<div class="input-group"><label>Player ID</label><input type="text" id="d-playerId" placeholder="Enter Free Fire Player ID"></div>
+<div class="input-group"><label>Server ID</label><input type="text" id="d-serverId" placeholder="Enter Server ID"></div>
+<div class="input-group"><label>Selected Package</label><input type="text" id="d-selectedPackage" placeholder="Click a package above" readonly style="background:#2a2a3e"></div>
+<div class="payment-info"><h4 style="color:#f7c600;margin-bottom:10px">💳 OPay Payment</h4><div class="bank-details">Bank: OPay<br>Name: RAUF ATANDA BASHIR<br>Account: 9039843883</div></div>
+<button class="submit-btn" onclick="submitOrder('diamonds')">Submit Order</button></div>
+</div>
+
+<div id="weekly" class="section">
+<div class="hero"><h1>Weekly Subscription</h1><p>Get diamonds every week at discounted price!</p></div>
+<div class="notice-box"><h3>📅 Weekly Plans</h3><p>Subscribe once, get diamonds delivered every week for 1 month (4 weeks).</p></div>
+<h2 style="color:#f7c600;text-align:center;margin:20px 0">Choose Weekly Plan</h2>
+<div class="packages">
+<div class="package" onclick="selectPackage('weekly','Weekly 100',10000)"><span class="package-badge">Weekly</span><div class="amount">💎 100 Diamonds/Week</div><div style="color:#4ade80;font-size:14px">+10 Bonus each week</div><div class="old-price">₦12,000</div><div class="price">₦10,000/month</div><div class="savings">Save ₦2,000!</div><ul class="features-list"><li>400 diamonds total</li><li>Delivered weekly x4</li><li>Priority support</li></ul></div>
+<div class="package" onclick="selectPackage('weekly','Weekly 310',25000)"><span class="package-badge popular">POPULAR</span><div class="amount">💎 310 Diamonds/Week</div><div style="color:#4ade80;font-size:14px">+31 Bonus each week</div><div class="old-price">₦30,000</div><div class="price">₦25,000/month</div><div class="savings">Save ₦5,000!</div><ul class="features-list"><li>1,240 diamonds total</li><li>Delivered weekly x4</li><li>VIP support</li></ul></div>
+</div>
+<div class="order-form"><h3 style="color:#f7c600;text-align:center;margin-bottom:20px">Weekly Subscription</h3>
+<div class="input-group"><label>Player ID</label><input type="text" id="w-playerId" placeholder="Enter Free Fire Player ID"></div>
+<div class="input-group"><label>Server ID</label><input type="text" id="w-serverId" placeholder="Enter Server ID"></div>
+<div class="input-group"><label>WhatsApp Number</label><input type="text" id="w-whatsapp" placeholder="For weekly delivery"></div>
+<div class="input-group"><label>Selected Plan</label><input type="text" id="w-selectedPackage" placeholder="Click a plan above" readonly style="background:#2a2a3e"></div>
+<div class="payment-info"><h4 style="color:#f7c600;margin-bottom:10px">💳 OPay Payment</h4><div class="bank-details">Bank: OPay<br>Name: RAUF ATANDA BASHIR<br>Account: 9039843883</div></div>
+<button class="submit-btn" onclick="submitOrder('weekly')">Subscribe Now</button></div>
+</div>
+
+<div id="monthly" class="section">
+<div class="hero"><h1>Monthly Subscription</h1><p>Best value for serious players! Huge discounts.</p></div>
+<div class="notice-box"><h3>📆 Monthly Plans</h3><p>One payment, diamonds delivered every month. Cancel anytime.</p></div>
+<h2 style="color:#f7c600;text-align:center;margin:20px 0">Choose Monthly Plan</h2>
+<div class="packages">
+<div class="package" onclick="selectPackage('monthly','Monthly 1K',35000)"><span class="package-badge">Monthly</span><div class="amount">💎 1,000 Diamonds/Month</div><div style="color:#4ade80;font-size:14px">+100 Bonus monthly</div><div class="old-price">₦44,000</div><div class="price">₦35,000/month</div><div class="savings">Save ₦9,000!</div><ul class="features-list"><li>12,000 diamonds/year</li><li>Monthly auto-delivery</li><li>Priority support</li></ul></div>
+<div class="package" onclick="selectPackage('monthly','Monthly 3K',90000)"><span class="package-badge popular">BEST VALUE</span><div class="amount">💎 3,000 Diamonds/Month</div><div style="color:#4ade80;font-size:14px">+300 Bonus monthly</div><div class="old-price">₦120,000</div><div class="price">₦90,000/month</div><div class="savings">Save ₦30,000!</div><ul class="features-list"><li>36,000 diamonds/year</li><li>VIP support 24/7</li><li>20% extra bonus</li></ul></div>
+</div>
+<div class="order-form"><h3 style="color:#f7c600;text-align:center;margin-bottom:20px">Monthly Subscription</h3>
+<div class="input-group"><label>Player ID</label><input type="text" id="m-playerId" placeholder="Enter Free Fire Player ID"></div>
+<div class="input-group"><label>Server ID</label><input type="text" id="m-serverId" placeholder="Enter Server ID"></div>
+<div class="input-group"><label>WhatsApp Number</label><input type="text" id="m-whatsapp" placeholder="For monthly delivery"></div>
+<div class="input-group"><label>Selected Plan</label><input type="text" id="m-selectedPackage" placeholder="Click a plan above" readonly style="background:#2a2a3e"></div>
+<div class="payment-info"><h4 style="color:#f7c600;margin-bottom:10px">💳 OPay Payment</h4><div class="bank-details">Bank: OPay<br>Name: RAUF ATANDA BASHIR<br>Account: 9039843883</div></div>
+<button class="submit-btn" onclick="submitOrder('monthly')">Subscribe Now</button></div>
+</div>
+
+<div id="evo" class="section">
+<div class="hero evo-section"><h1 class="evo-title">🔥 Evo Access</h1><p>Exclusive Evo gun skins, tokens, and special bundles!</p></div>
+<div class="notice-box" style="border-color:#9b59b6"><h3 style="color:#9b59b6">⚡ Evo Token Packages</h3><p>Unlock Evo weapons and dominate the battlefield!</p></div>
+<h2 style="color:#9b59b6;text-align:center;margin:20px 0">Evo Token Packages</h2>
+<div class="packages">
+<div class="package" onclick="selectPackage('evo','Evo Starter',5000)" style="border-color:#9b59b6"><span class="package-badge evo">EVO STARTER</span><div class="amount">🔥 100 Evo Tokens</div><div style="color:#9b59b6;font-size:14px">+10 Bonus Tokens</div><div class="price" style="color:#9b59b6">₦5,000</div><ul class="features-list"><li>Unlock basic Evo skins</li><li>10 upgrade stones</li><li>Instant delivery</li></ul></div>
+<div class="package" onclick="selectPackage('evo','Evo Max',25000)" style="border-color:#9b59b6"><span class="package-badge evo">EVO MAX 🔥</span><div class="amount">🔥 500 Evo Tokens</div><div style="color:#9b59b6;font-size:14px">+75 Bonus Tokens</div><div class="old-price">₦30,000</div><div class="price" style="color:#9b59b6">₦25,000</div><div class="savings">Save ₦5,000!</div><ul class="features-list"><li>Unlock ALL Evo skins</li><li>50 upgrade stones</li><li>3 exclusive bundles</li></ul></div>
+</div>
+<div class="order-form"><h3 style="color:#9b59b6;text-align:center;margin-bottom:20px">Evo Access Order</h3>
+<div class="input-group"><label>Player ID</label><input type="text" id="e-playerId" placeholder="Enter Free Fire Player ID"></div>
+<div class="input-group"><label>Server ID</label><input type="text" id="e-serverId" placeholder="Enter Server ID"></div>
+<div class="input-group"><label>WhatsApp Number</label><input type="text" id="e-whatsapp" placeholder="For Evo delivery"></div>
+<div class="input-group"><label>Selected Evo Package</label><input type="text" id="e-selectedPackage" placeholder="Click a package above" readonly style="background:#2a2a3e"></div>
+<div class="payment-info" style="background:#2d1b4e"><h4 style="color:#9b59b6;margin-bottom:10px">💳 OPay Payment</h4><div class="bank-details">Bank: OPay<br>Name: RAUF ATANDA BASHIR<br>Account: 9039843883</div></div>
+<button class="submit-btn" onclick="submitOrder('evo')" style="background:#9b59b6">Get Evo Access</button></div>
+</div>
+
+<footer><div class="footer-logo">BNV_ɓãshwïll</div><p style="color:#666;font-size:12px;margin-top:10px">💎 Diamonds | 📅 Subscriptions | 🔥 Evo Access<br>WhatsApp: 09039843883 | OPay: 9039843883<br>Not affiliated with Garena.</p></footer>
+
+<script>
+var selectedType=null,selectedItem=null,selectedPrice=null;
+function showSection(s,t){for(var e=document.getElementsByClassName("section"),a=0;a<e.length;a++)e[a].classList.remove("active");document.getElementById(s).classList.add("active");for(var n=document.getElementsByClassName("nav-tab"),a=0;a<n.length;a++)n[a].classList.remove("active");t.classList.add("active")}
+function selectPackage(t,i,p){selectedType=t,selectedItem=i,selectedPrice=p;var e=i+" - ₦"+p;"diamonds"==t?document.getElementById("d-selectedPackage").value=e:"weekly"==t?document.getElementById("w-selectedPackage").value=e:"monthly"==t?document.getElementById("m-selectedPackage").value=e:"evo"==t&&(document.getElementById("e-selectedPackage").value=e);for(var a=document.getElementById(t).getElementsByClassName("package"),n=0;n<a.length;n++)a[n].classList.remove("selected");event.currentTarget.classList.add("selected")}
+function submitOrder(t){var i,p,e,a;"diamonds"==t?(i=document.getElementById("d-playerId").value.trim(),p=document.getElementById("d-serverId").value.trim(),a=document.getElementById("d-selectedPackage").value,e=""):"weekly"==t?(i=document.getElementById("w-playerId").value.trim(),p=document.getElementById("w-serverId").value.trim(),e=document.getElementById("w-whatsapp").value.trim(),a=document.getElementById("w-selectedPackage").value):"monthly"==t?(i=document.getElementById("m-playerId").value.trim(),p=document.getElementById("m-serverId").value.trim(),e=document.getElementById("m-whatsapp").value.trim(),a=document.getElementById("m-selectedPackage").value):"evo"==t&&(i=document.getElementById("e-playerId").value.trim(),p=document.getElementById("e-serverId").value.trim(),e=document.getElementById("e-whatsapp").value.trim(),a=document.getElementById("e-selectedPackage").value);if(!i||!p)return void alert("Please enter Player ID and Server ID");if(!selectedItem||selectedType!==t)return void alert("Please select a package");var n="🔥 NEW ORDER 🔥%0A%0AType: "+t.toUpperCase()+"%0APackage: "+selectedItem+"%0APrice: ₦"+selectedPrice+"%0A%0APlayer ID: "+i+"%0AServer ID: "+p;e&&(n+="%0AWhatsApp: "+e),n+="%0A%0AI have made the payment to:%0AOPay - 9039843883%0AName: RAUF ATANDA BASHIR%0A%0AHere is my screenshot:","evo"===t&&(n+="%0A%0A⚡ EVO ORDER - Priority Delivery!"),window.open("https://wa.me/2349039843883?text="+n,"_blank")}
+</script>
+
+</body>
+</html>
